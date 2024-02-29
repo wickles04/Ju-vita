@@ -1,0 +1,47 @@
+:root{
+    --branco: #fff;
+    --laranja-claro: #F6E4D0;
+    --laranja-escuro: #EC8922;
+    --verde: #6DC35D;
+    --verde-escuro: #3F7333;
+    --laranja-muito-claro: #FFF9F3;
+    --preto: #000;
+
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 12px solid #EC8922;
+    
+}
+.topo-dir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 461;
+    gap: 49px;
+    padding: 32px;
+}
+.btn-pesquisar{
+    border: 1px solid black;
+    height: 49px;
+    /* width: ; */
+    display: flex;
+    align-items: center;
+    padding:  4px;
+}
+.btn-pesquisar input {
+    outline: none;
+    border: none;
+    height: 100%;
+
+}
+.fa-magnifying-glass{
+    font-size: 40px;
+
+}
+.fa-bars{
+    font-size: 40px;
+}
