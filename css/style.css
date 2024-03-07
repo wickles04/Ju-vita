@@ -125,3 +125,74 @@
     /* Sombra */
     box-shadow: 0px 5px 4.3px 0px rgba(0, 0, 0, 0.25);
 }
+
+/* SECTION SUCOS */
+
+
+.sucos{
+    background: #FFF9F3;
+    display: grid;
+    justify-content: center;
+    gap: 68px;
+    grid-template-areas: 
+    "txt-top img-dir"
+    "img-esq img-dir"
+    ;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 610px));
+    grid-template-rows: 1fr 1fr;
+
+
+}
+.sucos-txts{
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 32px;
+    border-top: 12px solid #6DC35D;
+    height: fit-content;
+
+}
+ .sucos-titulo{
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 700;
+}
+.sucos-txts .sucos-txt{
+    font-family: Oswald;
+    font-size: 20px;
+}
+.sucos-txts .sucos-txt span{
+    color: #6DC35D;
+    font-family: Oswald;
+    font-size: 20px;
+}
+.sucos-txts .sucos-btn{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #6DC35D;
+    width: 117px;
+
+}
+.sucos-txts .sucos-btn a{
+    color: #6DC35D;
+    font-family: Oswald;
+    
+    font-size: 20px;
+    font-weight: 300;
+}
+.sucos .sucos-img-esquerda{
+    grid-area: img-esq;
+    background-image: url(../img/img-hsucos-h.png);
+    background-position: center;
+    background-size: cover;
+}
+.sucos .sucos-img-direita{
+    grid-area: img-dir;
+    background-image: url(../img/img-vsucos-v.png);
+    background-position: center;
+    background-size: cover;
+}
